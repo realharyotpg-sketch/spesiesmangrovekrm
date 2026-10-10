@@ -1360,7 +1360,6 @@ async function renderSpecimenPopup(sp, marker){
       ${sp.desc ? `<div class="specimen-desc">${escapeHtml(sp.desc)}</div>` : ''}
       <div class="specimen-meta">
         <div>Zona &nbsp;: <b>${escapeHtml(sp.area)}</b></div>
-        <div>Lokasi : <b>${sp.lat.toFixed(5)}, ${sp.lng.toFixed(5)}</b></div>
       </div>
       <div class="photo-section" data-fid="${sp.fid}">
         <div class="photo-section-label"><span>Foto Spesimen</span></div>
